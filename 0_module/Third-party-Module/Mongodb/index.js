@@ -9,10 +9,6 @@ async function connectDB() {
     let database = client.db("PRACTICE_DB");
 
     // step 3 -- to create collection
-    let User = await database.collection("User");
-
-
-
-
+    let User = await database.collections("User");
 
 }
